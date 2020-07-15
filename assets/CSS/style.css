@@ -1,0 +1,561 @@
+/* Upcoming Concert */
+
+/* Form */
+
+/*
+
+.card-img{
+  background-image: url(./assets/images/Rectangle 45.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10rem;
+  background-attachment: fixed;
+}
+
+Work on This
+
+*/
+
+
+
+
+
+.header{
+  margin-bottom: 9rem;
+}
+
+.card-border-btn{
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  color: #000;
+  background-color: #E6B034;
+  width: 70px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+.Events-mobile{
+  display: none;
+}
+
+.card-border-btn-lg{
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  color: #000;
+  background-color: #E6B034;
+  width: 150px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+
+.foooter-text{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bottom-hr{
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 0px;
+}
+
+ .display-desk{
+    display: none;
+  }
+
+hr{
+  width: 1400px;
+  border: 1px solid #000000;
+}
+form {
+    position: relative;
+}
+
+.form-control-textarea{
+  resize: none;
+
+}
+
+.form-control{
+  height: 50px;
+}
+
+.form-control:focus {
+
+    color: #000;
+
+}
+
+.con-us{
+  color: #E6B034;
+}
+
+.btnn{
+  background-color: #E6B034;
+  color: #000; 
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+}
+/* Form */
+
+.upcoming-img{
+  width: 40px;
+  height: 150px;
+}
+
+.head-text-color{
+  color: #E6B034;
+
+}
+
+.upcomig-event{
+  
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 20px;
+}
+
+.up-con{
+  background: rgba(196, 196, 196, 0.1);
+
+}
+
+#Album .card {
+    margin-top: 37px;
+}
+
+#newReleases .card {
+    margin-top: 37px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+  font-size: 1rem;
+}
+.read-more{
+  background: #CD223C;
+  color: #fff;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #000;
+}
+/*
+.background-image {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}*/
+.CONTACT-ME{
+  background: #FFFFFF;
+  border: 2px solid #E6B034;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #E6B034;
+}
+
+.concert-bg{
+    display: flex;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+
+}
+
+
+
+.card-text-bg-right{
+  color: #E6B034;
+  border: solid 2px #E6B034;
+  border-radius: 100px;
+}
+
+.card-border-line{
+  border: 1px solid #E6B034;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+
+.headings{
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 56px;
+}
+
+.card-title{
+  background-color: #E6B034;
+  width: 60px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+
+}
+
+.card-title1{
+  background-color: #E6B034;
+  width: 180px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+
+}
+.my-album{
+  background: rgba(230, 176, 52, 0.07);
+}
+
+.new-Releases{
+  background: rgba(230, 176, 52, 0.07);
+}
+
+.card-text{
+    border: solid 2px #E6B034;
+    border-radius: 100px;
+    color: #E6B034;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-general{
+  background-color: #E6B034;
+  border-radius: 100px;
+  width: 150px;
+  height: 50px;
+}
+
+.head-images{
+    position: absolute;
+    width: 720px;
+    height: 680px;
+    left: 10px;
+    top: -160px;
+    z-index: 0;
+
+}
+
+.nav-item-css {
+  margin-right: 1.5rem;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  z-index: 3;
+}
+
+
+.nav-link-css {
+  font-weight: 500;
+  color: #fff !important;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  z-index: 3;
+}
+
+
+.nav-link-css:hover {
+  color: #fff !important;
+}
+
+.btn-css {
+  background: #525CE0;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  border: 1px solid #525CE0;
+}
+
+
+
+.btn-css:hover {
+  background: #fff;
+  color: #525CE0 !important;
+}
+
+.jumbotron-bg-color {
+  margin-top: 20px;
+ background: rgba(250, 250, 250, 0.1);
+ color: #E6B034;
+}
+
+.textimony-bg{
+  background-color: #fff;
+}
+
+
+.jumbotron-top-word{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #E6B034;
+  
+}
+
+.jumbotron-btn {
+  font-size: 22px;
+  color: #525CE0 !important;
+  font-weight: 500;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #fff;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .feature-card {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .jumbotron-header {
+    font-size: 45px;
+  }
+  .jumbotron-btn {
+    font-size: 20px !important;
+  }
+  .download-bg {
+    padding: 70px 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-link-css{
+    color: #000 !important;
+  }
+
+  .Events-desktop{
+    display: none;
+  }
+
+.head-text-color{
+  font-size: 2rem;
+  
+}
+  /* Concert Section */
+
+.ticket-container{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "a b"
+                       "a c";
+
+}
+.movie-info{
+  grid-area: b;
+
+}
+.picture{
+  grid-area: a;
+}
+
+.buy-ticket{
+  grid-area: c;
+  font-size: 10px;
+
+}
+.picture img{
+  height: 100%;
+}
+
+
+  /* concert end */
+
+
+   .display-mob{
+    display: none;
+  }
+
+.Events-mobile{
+  display: initial;
+}
+  .display-desk{
+    display: initial;
+  }
+  .nav-logo {
+    font-size: 25px;
+  }
+  .jumbotron-header {
+    font-size: 2rem;
+  }
+  .jumbotron-text {
+    font-size: 16px;
+
+  }
+
+  .img-size-more-feature{
+    visibility: hidden;
+  }
+
+  .download-bg {
+    padding: 40px 80px;
+  }
+  .download-btn {
+    height: 55px;
+    width: 160px;
+    border-radius: 6px;
+    margin: 8px;
+  }
+  .footer-item {
+    margin: 0 10px;
+  }
+
+  .jumbotron-charity-word{
+    font-size: 2rem;
+  }
+
+  .amaze-charity{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .jumbotron-btn {
+    font-size: 16px !important;
+  }
+
+  .Events-desktop{
+    display: none;
+  }
+
+  .Events-mobile{
+    display: initial;
+  }
+
+   .jumbotron-text {
+    font-size: 11px;
+
+  }
+
+.ticket-container{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "a b"
+                       "a c";
+
+}
+.movie-info{
+  grid-area: b;
+
+}
+.picture{
+  grid-area: a;
+}
+
+.buy-ticket{
+  grid-area: c;
+ 
+
+}
+.picture img{
+  height: 100%;
+}
+
+
+
+  .avatar-img{
+    margin-right: 2px;
+  }
+
+.la-la-mobile{
+  font-size: 2rem;
+}
+
+.nav-link-css{
+  color: #000 !important;
+}
+
+ .display-desk{
+    display: initial;
+  }
+  .display-mob{
+    display: none;
+  }
+
+  .padding {
+    padding: 0;
+  }
+  .download-bg {
+    padding: 40px 60px;
+  }
+  .download-btn {
+    height: 55px;
+    width: 140px;
+  }
+  .download-text {
+    font-size: 10px;
+  }
+  .img-head{
+    
+    transform: none;
+    transition: none;
+  }
+
+   .img-head:hover{
+    
+    transform: none;
+    transition: none;
+  }
+
+  .img-size{
+
+  transition: none;
+}
+
+.img-size:hover{
+    transform:none;
+}
+
+}
+
+
+.video{
+  padding-top: 4rem;
+  background-color: #fff;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    background-color: #fff;
+    color: #000;
+    padding-bottom: 1rem;
+
+}
+.wrap {
+    display: flex;
+    background: rgba(196, 196, 196, 0.5);
+    padding: 1rem;
+   
+  
+}
+  }
